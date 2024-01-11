@@ -1,5 +1,10 @@
 /*
-a + b =c   
+
+30자리 수 덧셈
+(공백 무시, 배열 사용 금지)
+
+a + b =c
+
  */
 #include <stdio.h>
 int chtoi(char x, int y)   // char to int
@@ -370,7 +375,7 @@ int main(void)
 				do
 					input=getchar();
 				while (input!='\n');
-				keep='a'; // 한 글자 이상 입력하면 입력 버퍼 비우고 다시 입력 받음
+				keep='a';
 			}
 			else (input=='\n')
 				;
